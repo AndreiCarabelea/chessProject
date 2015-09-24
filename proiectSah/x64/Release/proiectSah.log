@@ -1,0 +1,54 @@
+﻿Build started 9/2/2015 6:06:23 PM.
+     1>Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W4 /WX- /Ox /Oi /Ot /Oy- /GL /GF /Gm- /MD /GS /Gy /Qpar /arch:AVX /fp:strict /fp:except- /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt /Qvect-report ..\sah.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '/Qvect-report'
+         sah.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+     1>..\sah.cpp(662): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>..\sah.cpp(663): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>..\sah.cpp(664): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>..\sah.cpp(665): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+     1>..\sah.cpp(1091): warning C4244: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>..\sah.cpp(1093): warning C4244: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>..\sah.cpp(1094): warning C4244: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>..\sah.cpp(1636): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\sah.cpp(2062): warning C4100: 'color' : unreferenced formal parameter
+     1>..\sah.cpp(2062): warning C4100: 'oponentMoves' : unreferenced formal parameter
+     1>..\sah.cpp(2062): warning C4100: 'best_move' : unreferenced formal parameter
+     1>..\sah.cpp(2062): warning C4100: 'min' : unreferenced formal parameter
+     1>..\sah.cpp(2062): warning C4100: 'max' : unreferenced formal parameter
+     1>..\sah.cpp(2062): warning C4100: 'depth' : unreferenced formal parameter
+     1>..\sah.cpp(2352): warning C4127: conditional expression is constant
+     1>..\sah.cpp(2367): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\sah.cpp(2425): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\sah.cpp(2462): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\sah.cpp(2415): warning C4189: 'current_move_time' : local variable is initialized but not referenced
+     1>..\sah.cpp(2518): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\sah.cpp(2530): warning C4127: conditional expression is constant
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(144): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 ..\sah.cpp(2169) : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=int
+         ,            _Other2=int
+                 ]
+                 ..\sah.cpp(2169) : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=int
+         ,            _Other2=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\surse_sah\proiectSah\x64\Release\proiectSah.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\surse_sah\proiectSah\x64\Release\proiectSah.pdb" /STACK:"2107872","2107872" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\surse_sah\proiectSah\x64\Release\proiectSah.lib" /MACHINE:X64 x64\Release\functii_invatare.obj
+         x64\Release\functii_tabla.obj
+         x64\Release\sah.obj
+         functii_invatare.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+         Finished generating code
+         proiectSah.vcxproj -> D:\surse_sah\proiectSah\x64\Release\proiectSah.exe
+     1>Done Building Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38

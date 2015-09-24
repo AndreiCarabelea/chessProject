@@ -1,0 +1,93 @@
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+resolved -adobe-helvetica-bold-r-normal--34-240-100-100-p-182-iso8859-1 at pixel size 34
+  to -adobe-helvetica-bold-r-normal--34-240-100-100-p-182-iso8859-1
+resolved -adobe-helvetica-bold-r-normal--14-100-100-100-p-82-iso8859-1 at pixel size 14
+  to -adobe-helvetica-bold-r-normal--14-100-100-100-p-82-iso8859-1
+resolved -adobe-helvetica-medium-r-normal--14-100-100-100-p-76-iso8859-1 at pixel size 14
+  to -adobe-helvetica-medium-r-normal--14-100-100-100-p-76-iso8859-1
+xboard 4.5.3 + proiect_sah
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+TC string = ':40/120'
+mps=40 tc=120000 inc=0
+TC string = ':40/120'
+mps=40 tc=120000 inc=0
+1733 >first : xboard
+protover 2
+shuffleOpenings = 0
+11738 >first : new
+random
+11738 >first : level 40 2 0
+11739 >first : post
+11739 >first : hard
+7 0 4 7 0 4 Legality test? e2e4
+TC string = ':40/120'
+mps=40 tc=120000 inc=0
+CoordsToAlgebraic, piece=0 (4,1)-(4,3) -
+7 0 4 7 0 4 Legality test? e2e4
+movetype=21, promochar=0=-
+MateTest: K=1, my=16, his=16
+move: e2e4
+, parse: e4 (
+)
+MateTest: K=1, my=16, his=16
+repeat test fmm=1 bmm=0 ep=-4, reps=6
+1 ep=-3
+0 ep=-4
+nps: w=-1, b=-1
+nps: w=-1, b=-1
+time odds: 1.000000 1.000000 
+14908 >first : time 12000
+14909 >first : otim 12000
+book hit = (NULL)
+14909 >first : e2e4
+14913 <first : move e7e6
+machine move 1, castling = 7 0 4 7 0 4
+7 0 4 7 0 4 Legality test? e7e6
+TC string = ':40/120'
+mps=40 tc=120000 inc=0
+CoordsToAlgebraic, piece=22 (4,6)-(4,5) -
+7 0 4 7 0 4 Legality test? e7e6
+movetype=21, promochar=0=-
+MateTest: K=1, my=16, his=16
+move: e7e6
+, parse: e6 (
+)
+MateTest: K=1, my=16, his=16
+repeat test fmm=2 bmm=0 ep=-4, reps=6
+2 ep=-3
+1 ep=-3
+0 ep=-4
+AnimateMove: piece 22 slides from 4,6 to 4,5 
+7 0 4 7 0 4 Legality test? d2d3
+TC string = ':40/120'
+mps=40 tc=120000 inc=0
+CoordsToAlgebraic, piece=0 (3,1)-(3,2) -
+7 0 4 7 0 4 Legality test? d2d3
+movetype=21, promochar=0=-
+MateTest: K=1, my=16, his=16
+move: d2d3
+, parse: d3 (
+)
+MateTest: K=1, my=16, his=16
+repeat test fmm=3 bmm=0 ep=-4, reps=6
+3 ep=-3
+2 ep=-3
+1 ep=-3
+0 ep=-4
+time odds: 1.000000 1.000000 
+Interrupting first
+16296 >first : time 11999
+16300 >first : otim 11862
+book hit = (NULL)
+16300 >first : d2d3
+GameEnds(26, Error: first chess program (proiect_sah) exited unexpectedly, 2)
+Interrupting first
+17873 >first : result 0-1 {Error: first chess program (proiect_sah) exited unexpectedly}
+17873 >first : force
+17874 >first : quit

@@ -1,0 +1,21 @@
+﻿Build started 12/17/2014 10:38:42 PM.
+     1>Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\surse_sah\proiectSah\Release\proiectSah.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\surse_sah\proiectSah\Release\proiectSah.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\surse_sah\proiectSah\Release\proiectSah.lib" /MACHINE:X86 /SAFESEH Release\cache.obj
+         Release\codificare.obj
+         Release\debug.obj
+         Release\functii_invatare.obj
+         Release\functii_tabla.obj
+         Release\retea.obj
+         Release\sah.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         proiectSah.vcxproj -> D:\surse_sah\proiectSah\Release\proiectSah.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\surse_sah\proiectSah\Release\proiectSah.bsc" /n Release\cache.sbr Release\codificare.sbr Release\debug.sbr Release\functii_invatare.sbr Release\functii_tabla.sbr Release\retea.sbr Release\sah.sbr Release\stdafx.sbr
+     1>Done Building Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

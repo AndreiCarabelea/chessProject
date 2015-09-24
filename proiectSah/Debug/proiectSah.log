@@ -1,0 +1,18 @@
+﻿Build started 12/17/2014 10:44:45 PM.
+     1>Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\surse_sah\proiectSah\Debug\proiectSah.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\surse_sah\proiectSah\Debug\proiectSah.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\surse_sah\proiectSah\Debug\proiectSah.lib" /MACHINE:X64 /PROFILE Debug\cache.obj
+         Debug\codificare.obj
+         Debug\debug.obj
+         Debug\functii_invatare.obj
+         Debug\functii_tabla.obj
+         Debug\retea.obj
+         Debug\sah.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>Debug\cache.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22

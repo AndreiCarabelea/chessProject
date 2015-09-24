@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proiectSah", "proiectSah.vcxproj", "{75069D8A-8F0A-442D-B6FD-410FC7227F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7C471A2-0171-4B6A-BCE2-097C00DB8393}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+		Performance2.psess = Performance2.psess
+		Performance3.psess = Performance3.psess
+		Performance4.psess = Performance4.psess
+		Performance5.psess = Performance5.psess
+		Performance6.psess = Performance6.psess
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "..\ModelingProject1\ModelingProject1.modelproj", "{631B0D62-01EF-48CA-A61C-0C875EC46253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|Win32.Build.0 = Debug|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|x64.ActiveCfg = Debug|x64
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Debug|x64.Build.0 = Debug|x64
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|Any CPU.ActiveCfg = Release|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|Win32.ActiveCfg = Release|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|Win32.Build.0 = Release|Win32
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|x64.ActiveCfg = Release|x64
+		{75069D8A-8F0A-442D-B6FD-410FC7227F74}.Release|x64.Build.0 = Release|x64
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Release|Win32.ActiveCfg = Release|Any CPU
+		{631B0D62-01EF-48CA-A61C-0C875EC46253}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

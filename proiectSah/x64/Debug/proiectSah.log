@@ -1,0 +1,31 @@
+﻿Build started 9/2/2015 6:41:12 PM.
+     1>Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /Od /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\functii_invatare.cpp ..\functii_tabla.cpp ..\sah.cpp
+         functii_invatare.cpp
+         functii_tabla.cpp
+         sah.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(144): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 ..\sah.cpp(2169) : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=int
+         ,            _Other2=int
+                 ]
+                 ..\sah.cpp(2169) : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=int
+         ,            _Other2=int
+                 ]
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\surse_sah\proiectSah\x64\Debug\proiectSah.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\surse_sah\proiectSah\x64\Debug\proiectSah.pdb" /MAP /STACK:"2000000","2000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\surse_sah\proiectSah\x64\Debug\proiectSah.lib" /MACHINE:X64 x64\Debug\functii_invatare.obj
+         x64\Debug\functii_tabla.obj
+         x64\Debug\sah.obj
+         proiectSah.vcxproj -> D:\surse_sah\proiectSah\x64\Debug\proiectSah.exe
+     1>Done Building Project "D:\surse_sah\proiectSah\proiectSah.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.68
